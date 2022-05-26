@@ -12,8 +12,8 @@ class Vehicle:
         return self.type
        # print("The vehicle type of " + self.name +" is : " + self.type)
 
-    def vehicle_accelerate(self):
-        self.speed = self.speed+10
+    def vehicle_accelerate(self,x):
+        self.speed = self.speed+x
 
     def vehicle_speed(self):
         print("The speed of " + self.type + " " + self.name + " is : "+ str(self.speed) + " kmph")

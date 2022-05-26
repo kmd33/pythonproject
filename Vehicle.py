@@ -1,5 +1,5 @@
 class Vehicle:
-
+# this is a vehicle class
     def __init__(self,type,name,speed=0):
         self.speed = speed
         self.type = type
